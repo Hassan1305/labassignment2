@@ -13,12 +13,14 @@ To run the code successfully do the following things
 Find the line where the kotlin-gradle-plugin is declared. It should look something like this:
 ```
 classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
 ```
 
 
 Replace ***$kotlin_version*** with the required version, which is 1.6.20 or higher, like so:
 ```
 classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20"
+    classpath "org.jetbrains.kotlin:kotlin-android-extensions:1.6.20"
 ```
 
 (note in case after everything it is not working try deleting node_modules and reinstalling packages through npm install )
