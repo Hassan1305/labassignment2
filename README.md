@@ -23,6 +23,7 @@ classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20"
 
 (note in case after everything it is not working try deleting node_modules and reinstalling packages through npm install )
 4. make sure you have XAMPP start the xampp
+
 5. get to the XAMPP directory and htdocs folder place the three files of php in it, the files are currently in the repo
 6. get to phpmyadmin and create a new database of meter_reading
 7. create a table of records with 4 columns
